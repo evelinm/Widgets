@@ -1,5 +1,6 @@
 import React from 'react';
-import Accordion from './Components/Accordion';
+// import Accordion from './Components/Accordion';
+import SearchBar from './Components/SearhBar';
 
 const items = [
     {
@@ -19,7 +20,7 @@ const items = [
 const  App = () => {
   
     return <div>
-        <Accordion items={items}/>
+        <SearchBar/>
     </div>
 };
 export default App;
